@@ -8,3 +8,8 @@ a {
 	color: #000000;
 	text-decoration: none;
  }
+
+ p {
+ 	margin-bottom: 0px;
+ 	font-style: 'comic sans';
+ }
