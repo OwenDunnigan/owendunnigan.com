@@ -12,6 +12,29 @@ a {
  p {
  	bottom: 10px;
  	position: absolute;
- 	margin: 0px auto 0px;
+ 	margin: 0px 44% 0px;
  	font-family: fantasy;
  }
+
+ .container {
+ 	display: flex;
+ 	flex-direction: column;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+ .snot {
+ 	height: 7vh;
+ 	width: 32.5vw;
+ }
+
+ /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+  .snot {
+  	font-size: x-large;
+
+  }
+}
