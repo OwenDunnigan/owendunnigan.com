@@ -19,14 +19,22 @@ a {
  .container {
  	display: flex;
  	flex-direction: column;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	align-items: center;
  }
  .snot {
-
+ 	height: 7vh;
+ 	width: 32.5vw;
  }
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
   .container {
     flex-direction: row;
+  }
+  .snot {
+  	font-size: x-large;
+
   }
 }
