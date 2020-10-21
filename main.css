@@ -21,5 +21,12 @@ a {
  	flex-direction: column;
  }
  .snot {
- 	
+
  }
+
+ /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
