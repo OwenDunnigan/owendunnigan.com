@@ -11,5 +11,7 @@ a {
 
  p {
  	bottom: 10px;
- 	font-style: 'comic sans';
+ 	position: absolute;
+ 	margin: 0px auto 0px;
+ 	font-family: fantasy;
  }
