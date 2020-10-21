@@ -15,3 +15,8 @@ a {
  	margin: 0px auto 0px;
  	font-family: fantasy;
  }
+
+ .container {
+ 	display: flex;
+ 	flex-direction: column;
+ }
