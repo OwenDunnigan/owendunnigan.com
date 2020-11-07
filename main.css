@@ -28,6 +28,16 @@ a {
  	width: 32.5vw;
  }
 
+ .ip {
+	top: 0px;
+	position: absolute;
+	margin: 0 0 0 -10px;
+	color: bisque;
+	text-overflow: clip;
+	white-space: nowrap;
+
+ }
+
  /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
   .container {
