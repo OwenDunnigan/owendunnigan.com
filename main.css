@@ -9,7 +9,7 @@ a {
 	text-decoration: none;
  }
 
- p {
+ .bottom {
  	bottom: 10px;
  	position: absolute;
  	margin: 0px 44% 0px;
