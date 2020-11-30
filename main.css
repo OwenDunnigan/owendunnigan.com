@@ -42,6 +42,18 @@ a {
 
  }
 
+ .links {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+ }
+
+ .news {
+
+ }
+
  @keyframes xmas {
 	 0%		{ background-color: red;}
 	 50% 	{ background-color: green;}
