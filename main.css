@@ -1,6 +1,10 @@
 body {
 	text-align: center;
-	background-color: #d33b22;
+	background-color: red;
+	animation-name: xmas;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(0.72, -0.15, 0, 1.13);
 }
 
 a { 
@@ -12,7 +16,7 @@ a {
  .bottom {
  	bottom: 10px;
  	position: absolute;
- 	margin: 0px 44% 0px;
+ 	margin: 0px 42% 0px;
  	font-family: fantasy;
  }
 
@@ -36,6 +40,12 @@ a {
 	text-overflow: clip;
 	white-space: nowrap;
 
+ }
+
+ @keyframes xmas {
+	 0%		{ background-color: red;}
+	 50% 	{ background-color: green;}
+	 100% 	{ background-color: red;}
  }
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
