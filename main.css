@@ -68,4 +68,7 @@ a {
   	font-size: x-large;
 
   }
+  .news img {
+	  width: 50vw;
+  }
 }
