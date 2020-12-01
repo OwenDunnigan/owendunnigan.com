@@ -53,6 +53,10 @@ a {
 	padding-top: 10vh;
  }
 
+ .pups {
+	 left: 0px;
+	 text-size-adjust: 10%;
+ }
  @keyframes xmas {
 	 0%		{ background-color: red;}
 	 50% 	{ background-color: green;}
