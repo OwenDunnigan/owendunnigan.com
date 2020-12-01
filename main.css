@@ -5,6 +5,7 @@ body {
 	animation-duration: 3.5s;
 	animation-iteration-count: infinite;
 	animation-timing-function: cubic-bezier(0.72, -0.15, 0, 1.13);
+	-webkit-animation: xmas infinite 3.5s cubic-bezier(0.72, -0.15, 0, 1.13);
 }
 
 a { 
@@ -48,6 +49,7 @@ a {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	padding-top: 10vh;
  }
 
  .news {
@@ -58,6 +60,12 @@ a {
 	 0%		{ background-color: red;}
 	 50% 	{ background-color: green;}
 	 100% 	{ background-color: red;}
+ }
+
+ @-webkit-keyframes xmas {
+	0%		{ background-color: red;}
+	50% 	{ background-color: green;}
+	100% 	{ background-color: red;}
  }
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
