@@ -25,7 +25,8 @@ a {
  	flex-direction: column;
  	flex-wrap: wrap;
  	justify-content: center;
- 	align-items: center;
+	align-items: center;
+	height: 45vh;
  }
  .snot {
  	height: 7vh;
