@@ -6,7 +6,6 @@ body {
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: center;
 	align-items: center;
 }
 
@@ -21,4 +20,11 @@ body {
 .pic img .mawty {
     right: -92px;
     position: absolute;
+}
+
+.link {
+    align-self: stretch;
+    width: 10vw;
+    transform:scale(3.5,.9);
+    padding-left: 200px;
 }
