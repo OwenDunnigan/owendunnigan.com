@@ -60,6 +60,11 @@ a button {
 	 text-size-adjust: 10%;
  }
 
+ .typo {
+ 	position: absolute;
+ 	top: 80px;
+ }
+
  /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
   .container {
