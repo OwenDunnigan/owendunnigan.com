@@ -60,9 +60,10 @@ a button {
 	 text-size-adjust: 10%;
  }
 
- .typo {
+ #typo {
  	position: absolute;
- 	top: 80px;
+ 	top: 157vh;
+    right: 12em;
  }
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
