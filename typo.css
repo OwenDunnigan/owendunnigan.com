@@ -1,0 +1,9 @@
+.flex {
+	padding: 10px;
+}
+
+.box {
+	display:flex;
+	justify-content: center;
+	flex-flow: row;
+}
