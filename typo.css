@@ -7,3 +7,13 @@
 	justify-content: center;
 	flex-flow: row;
 }
+
+.nor {
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+}
+
+.sub {
+	width: 30vw;
+}
