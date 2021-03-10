@@ -4,7 +4,9 @@ body {
 
 .title {
 	font-size: 14vw;
-
+	color: black;
+	animation-name: title;
+  	animation-duration: 3.5s;
 }
 
 .videos {
@@ -37,4 +39,16 @@ html {
 		width: 100%;
 		height: auto;
 	}
+}
+
+@keyframes title {
+	0%	{color: black; }
+	12.5%	{color: orange; }
+	37%	{color: black; }
+	42%	{color: white; }
+	55% {color: teal; }
+	75% {color: brown; }
+	90%	{color: chartreuse; }
+	95% {color: limegreen ;}
+	100% {color: white; }
 }
