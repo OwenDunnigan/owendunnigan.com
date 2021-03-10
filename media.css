@@ -1,5 +1,4 @@
 body {
-	width: 100vw;
 	height: 100vh;	
 }
 
@@ -9,7 +8,6 @@ body {
 }
 
 .videos {
-	width: 100vw;
 	display: flex;
     justify-content: space-evenly;
     margin: auto;
@@ -25,6 +23,10 @@ h1,h2,p {
 
 iframe {
 	height: 100vh;
+}
+
+html {
+	background-color: brown;
 }
 @media (max-width: 1020px) {
 	.videos {
