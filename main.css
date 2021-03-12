@@ -7,6 +7,7 @@ a {
 	text-align: center;
 	color: #000000;
 	text-decoration: none;
+	padding: 10px;
  }
 a button {
 	color: cornsilk;
@@ -75,7 +76,7 @@ a button {
  #interdisciplinary {
  	position: absolute;
  	top: 43vh;
- 	left: 10em;
+ 	left: 25vw;
  }
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
