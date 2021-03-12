@@ -66,6 +66,12 @@ a button {
     right: 12em;
  }
 
+ #newmedia {
+ 	position: absolute;
+ 	top: 243vh;
+ 	left: 4em;
+ }
+
  /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
   .container {
