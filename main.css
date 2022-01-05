@@ -1,6 +1,7 @@
 body {
 	text-align: center;
-	background-color: darkkhaki;
+	background-color: #397b84;
+	animation: background 3.5s infinite alternate;
 }
 
 a { 
@@ -95,6 +96,27 @@ a button {
   }
 }
 
+@-webkit-keyframes music {
+	from {
+		right: -20%;
+		top: 20%;
+		bottom: 0;
+	}
+	to {
+		right: 20%;
+		top: 0;
+		bottom: 100%;
+	}
+}
+
+@-webkit-keyframes background {
+	from {
+		background-color: #397b84;
+	}
+	to {
+		background-color: #26636b;
+	}
+}
 
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
