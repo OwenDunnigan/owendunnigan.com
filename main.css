@@ -4,6 +4,31 @@ body {
 	animation: background 3.5s infinite alternate;
 }
 
+.container {
+	display: none !important;
+}
+
+#socials:checked ~ .container {
+	display: flex !important;
+}
+
+.links {
+	visibility: hidden !important;
+}
+
+#news:checked ~ .links {
+	visibility: visible !important;
+}
+
+.music {
+	visibility: hidden !important;
+}
+
+#music:checked ~ .music {
+	visibility: visible !important;
+}
+
+
 a { 
 	text-align: center;
 	color: #000000;
