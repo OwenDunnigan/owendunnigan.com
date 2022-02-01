@@ -1,7 +1,8 @@
 body {
 	text-align: center;
-	background-color: #397b84;
-	animation: background 3.5s infinite alternate;
+	background: linear-gradient(138deg, #ff0079, #f785da, #dd0000);
+    background-size: 600% 600%;
+	animation: background 10.5s infinite alternate;
 }
 
 .container {
@@ -135,12 +136,9 @@ a button {
 }
 
 @-webkit-keyframes background {
-	from {
-		background-color: #397b84;
-	}
-	to {
-		background-color: #26636b;
-	}
+	0%{background-position:40% 0%}
+    50%{background-position:61% 100%}
+    100%{background-position:40% 0%}
 }
 
 
