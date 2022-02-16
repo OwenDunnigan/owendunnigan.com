@@ -21,6 +21,8 @@ body {
 	visibility: visible !important;
 }
 
+
+
 .music {
 	visibility: hidden !important;
 }
@@ -106,6 +108,10 @@ a button {
  	left: 25vw;
  }
 
+ #fortwhyte {
+	 position: relative;
+	 left: 30%;
+ }
 
 .glow {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
