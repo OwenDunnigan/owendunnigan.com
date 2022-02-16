@@ -65,6 +65,10 @@ a button {
  	width: 32.5vw;
  }
 
+ .snot a {
+	 font-size: 2em;
+ }
+ 
  .ip {
 	top: 0px;
 	position: absolute;
