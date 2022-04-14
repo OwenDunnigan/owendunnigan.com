@@ -1,8 +1,6 @@
 body {
 	text-align: center;
-	background: linear-gradient(138deg, #ff0079, #f785da, #dd0000);
-    background-size: 600% 600%;
-	animation: background 10.5s infinite alternate;
+	background: #0f860f;
 }
 
 .container {
