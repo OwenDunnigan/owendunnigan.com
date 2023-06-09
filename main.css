@@ -1,7 +1,33 @@
 body {
 	text-align: center;
-	background: #37371F;
+	background: linear-gradient(233deg, #132a13, #6baa75, #337ca0, #a18276, #f4b886);
+    background-size: 1000% 1000%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
 }
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+};
 
 .container {
 	display: none !important;
@@ -143,11 +169,6 @@ a button {
 	}
 }
 
-@-webkit-keyframes background {
-	0%{background-position:40% 0%}
-    50%{background-position:61% 100%}
-    100%{background-position:40% 0%}
-}
 
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
