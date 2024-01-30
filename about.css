@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .list {
     display: block;
     margin-left: 2vw;
