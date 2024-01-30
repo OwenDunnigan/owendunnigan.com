@@ -75,6 +75,7 @@ a button {
  	bottom: 10px;
  	margin: 4% 42% 0px;
  	font-family: fantasy;
+	position: fixed;
  }
 
  .news {
