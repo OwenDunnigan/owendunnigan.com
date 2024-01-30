@@ -19,9 +19,9 @@ h2  > p {
     -webkit-text-stroke: 1.25px #3f694c;
     text-shadow: 0.35rem -0.35rem 0 #000099, 0.7rem -0.7rem 0 lightseagreen;
     letter-spacing: -0.005vw;
-    font-size: 5em;
+    font-size: 6vw;
     position: absolute;
-    top: -152px;
+    top: -11vw;
 }
 
 span {
