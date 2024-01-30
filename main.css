@@ -60,6 +60,10 @@ body {
 	display: block;
 }
 
+nav {
+	padding: 10px;
+	color: #fff;
+}
 
 a { 
 	text-align: center;
