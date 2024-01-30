@@ -24,6 +24,11 @@ h2  > p {
     top: -152px;
 }
 
+span {
+    text-align: center;
+    display: block;
+}
+
 
 body {
     background-color: darkslategrey;
