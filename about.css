@@ -1,13 +1,29 @@
 body {
     margin: 0px;
+    background-image: url("https://img.freepik.com/free-photo/white-grey-tile-wall-high-resolution-wallpaper-brick-seamless-texture-interior-background_1258-72186.jpg");
+    background-repeat: round;
+    background-size: 37%;
+}
+
+h1 {
+    max-width: 77%;
 }
 
 .list {
     display: block;
-    margin-left: 2vw;
-    background-color: burlywood;
+    margin-top: 4vw;
+    background-color: rgba(222, 184, 135, .77);
+    padding: 7vw;
 }
 .list > h2 , p {
     margin-bottom: 0px;
     margin-top: 0px;
+}
+.list > h2 {
+    padding: 2vw;
+}
+
+.downloadable {
+    left: 45%;
+    position: relative;
 }
