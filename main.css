@@ -45,21 +45,26 @@ body {
 	visibility: visible !important;
 }
 
+#news:not(:checked) ~ .links {
+	position: absolute;
+}
 
 
 .music {
 	visibility: hidden !important;
+	display: none;
 }
 
 #music:checked ~ .music {
 	visibility: visible !important;
+	display: block;
 }
 
 
 a { 
 	text-align: center;
 	color: #000000;
-	text-decoration: none;
+	text-decoration: underline;
 	padding: 10px;
  }
 a button {
@@ -111,6 +116,7 @@ a button {
 	justify-content: center;
 	align-items: center;
 	padding-top: 10vh;
+	position: sticky;
  }
 
  .pups {
