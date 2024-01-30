@@ -1,6 +1,28 @@
 div {
-    border: 2px;
+    border: 5px double black;
+    width: 50%;
+    padding: 1vw;
+    position: absolute;
+    margin: 18% 25% 25% 18%;
+    background: white;
 }
+
+h2  > p {
+    color: grey;
+}
+
+.name {
+    transform: scale(0.8, 1.2);
+    font-family: Impact, sans-serif;
+    font-weight: 900;
+    color: #33ccff;
+    -webkit-text-stroke: 1.25px #000099;
+    text-shadow: 0.35rem -0.35rem 0 #000099;
+    letter-spacing: -0.15vw;
+    size: 12em;
+}
+
+
 body {
     background-color: darkslategrey;
 }
