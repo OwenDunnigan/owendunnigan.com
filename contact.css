@@ -1,10 +1,11 @@
 .main {
     border: 5px double black;
-    width: 50%;
+    width: 50vmin;
     padding: 1vw;
     position: absolute;
     margin: 18% 25% 25% 18%;
     background: white;
+    text-wrap: nowrap;
 }
 
 h2  > p {
