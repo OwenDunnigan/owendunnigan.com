@@ -37,4 +37,6 @@ span {
 
 body {
     background-color: darkslategrey;
+height: 100vh;
+overflow: hidden;
 }
