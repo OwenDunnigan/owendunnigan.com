@@ -95,6 +95,7 @@ img {
 
 .final {
   margin: 0 12%;
+  height: calc(100vh - 5%);
 }
 
 .first {
