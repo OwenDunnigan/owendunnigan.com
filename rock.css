@@ -88,3 +88,17 @@ img {
     color: #ede8e3;
     width: 110%;
   }
+
+  .animated {
+    max-width: 50%;
+  }
+
+.final {
+  margin: 0 12%;
+}
+
+.first {
+  height: calc(100vh - 5%);
+  width: auto;
+  margin: 0 .5%;
+}
