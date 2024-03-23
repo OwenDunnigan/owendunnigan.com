@@ -1,6 +1,6 @@
 h1 {
     text-align: right;
-    font-size: 10em;
+    font-size: 7vw;
 }
 
 body {
@@ -84,4 +84,20 @@ img {
     left: 0;
   }
   
-  
+  .moody { max-width: 10%; }
+
+  .square {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#917c3c, rgba(0,0,0,0));
+    position: absolute;
+    top: 30vw
+  }
+
+  .statement {
+    position: absolute;
+    z-index: 2;
+    top: 30vw;
+    font-size: 4vw;
+    padding-left: 9%;
+  }
