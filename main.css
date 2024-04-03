@@ -1,36 +1,42 @@
 body {
 	text-align: center;
-	background: linear-gradient(233deg, #132a13, #6baa75, #337ca0, #a18276, #f4b886);
-    background-size: 1000% 1000%;
+	background: linear-gradient(141deg, #23231a, #f8f272, #a22c29, #60061f);
+    background-size: 800% 800%;
+
     -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    -o-animation: AnimationName 30s ease infinite;
     animation: AnimationName 30s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:9% 0%}
-    50%{background-position:92% 100%}
-    100%{background-position:9% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:9% 0%}
-    50%{background-position:92% 100%}
-    100%{background-position:9% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:9% 0%}
-    50%{background-position:92% 100%}
-    100%{background-position:9% 0%}
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
 }
 @keyframes AnimationName {
-    0%{background-position:9% 0%}
-    50%{background-position:92% 100%}
-    100%{background-position:9% 0%}
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
 }
 
 .container {
 	display: none !important;
+}
+
+#socials {
+	display: none;
+}
+
+.socials:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	
+}
+.socials {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	height: 5vmax;
+	width: 5vmax;
+	display: inline-block;
+	align-content: center;
+	transition: all 1s;
 }
 
 #socials:checked ~ .container {
