@@ -15,14 +15,17 @@ html {
 }
 
 .supl {
-    width: 70vw;
+    width: 66vmax;
 }
 
 .video {
-    width: 50vw;
+    width: 66vmax;
+    height: 37vmax;
 }
 
-
+h1 {
+  font-size: 11vmax;
+}
 
 
 
@@ -33,6 +36,9 @@ html {
     overflow-y: auto;
     -webkit-perspective: 300px;
     perspective: 300px;
+    background-image: url("back.jpg");
+    background-repeat: round;
+    background-attachment: local;
   }
 
     .parallax__group {
