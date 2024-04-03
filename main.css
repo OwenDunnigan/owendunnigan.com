@@ -81,6 +81,12 @@ a button {
 	color: cornsilk;
     background-color: cadetblue;
 }
+
+.rock {
+	position: fixed;
+    width: -webkit-fill-available;
+}
+
  .bottom {
  	bottom: 10px;
  	margin: 4% 42% 0px;
@@ -102,7 +108,7 @@ a button {
  }
  .snot {
  	height: 7vh;
- 	width: 32.5vw;
+ 	width: 15.5vw;
  }
 
  .snot a {
