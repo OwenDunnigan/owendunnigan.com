@@ -62,7 +62,7 @@ h1 {
     -webkit-perspective: 300px;
     perspective: 300px;
     background-image: url("back.jpg");
-    background-repeat: round;
+    background-repeat: space;
     background-attachment: local;
   }
 
