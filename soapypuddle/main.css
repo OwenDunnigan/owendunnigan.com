@@ -16,6 +16,9 @@ html {
 
 .supl {
     width: 66vmax;
+    position: relative;
+    bottom: 5%;
+    right: -50%;
 }
 
 .video {
@@ -25,6 +28,8 @@ html {
 
 h1 {
   font-size: 11vmax;
+  padding-bottom: .5em;
+
 }
 
 
