@@ -5,20 +5,18 @@ html {
     height: 100vh;
 }
 
-.header {
-    width: 100vw;
-    background-image: url("back.jpg");
-    background-repeat: repeat;
-    height: 100vmax;
-    margin-top: -25%;
-    background-size: contain;
-}
 
 .supl {
     width: 66vmax;
     position: relative;
     bottom: 5%;
     right: -50%;
+}
+
+.back {
+  top: -40%;
+  position: absolute;
+  height: -webkit-fill-available;
 }
 
 .video {
@@ -56,14 +54,12 @@ h1 {
 
 .parallax {
     height: 500px; /* fallback for older browsers */
-    height: 100vh;
+    height: 200vh;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: clip;
     -webkit-perspective: 300px;
     perspective: 300px;
-    background-image: url("back.jpg");
-    background-repeat: round;
-    background-attachment: local;
+    
   }
 
     .parallax__group {
@@ -96,4 +92,5 @@ h1 {
     -webkit-transform: translateZ(-600px) scale(3);
     transform: translateZ(-600px) scale(3);
     z-index: 2;
+    height: 200vh;
   }
