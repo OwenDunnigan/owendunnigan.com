@@ -1,6 +1,7 @@
 .prairie_photos {
-
+	display: none;
 }
+
 
 #prairie:checked ~ .prairie_photos {
 	display: flex !important;
