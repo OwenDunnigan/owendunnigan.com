@@ -2,7 +2,15 @@
 	display: none;
 }
 
+.prairie {
+	font-size: xx-large;
+}
+
+#prairie {
+	display: none;
+}
 
 #prairie:checked ~ .prairie_photos {
 	display: flex !important;
+	flex-wrap: wrap;
 }
