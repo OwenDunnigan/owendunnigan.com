@@ -37,6 +37,9 @@ body {
 	display: inline-block;
 	align-content: center;
 	transition: all 1s;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
 }
 
 #socials:checked ~ .container {
@@ -135,6 +138,13 @@ a button {
 	padding-top: 10vh;
 	position: sticky;
  }
+
+.od {
+	position: sticky;
+	top: -25px;
+	width: 75%;
+	z-index: -1;
+}
 
  .pups {
 	 left: 0px;
