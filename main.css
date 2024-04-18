@@ -198,6 +198,16 @@ a button {
 	 left: 30%;
  }
 
+ #bands {
+	width: 7vw;
+	height: 3.75vh;
+	position: absolute;
+	background-color: #e60073;
+	padding: 1%;
+	left: 22%;
+	top: 170%;
+ }
+
 .glow {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
