@@ -1,5 +1,10 @@
+html {
+	font-size: 24px;
+}
+
+
 .bands {
-	font-size: xx-large;
+	font-size: 2rem;
 }
 
 #prairie {
