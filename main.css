@@ -106,7 +106,7 @@ a button {
 
 .rock {
 	position: fixed;
-    width: -webkit-fill-available;
+    width: 25%;
 	top: 73%;
 }
 
@@ -205,7 +205,12 @@ a button {
 	background-color: #e60073;
 	padding: 1%;
 	left: 22%;
-	top: 170%;
+	top: 170vmin;
+ }
+
+ #bands:hover {
+	padding: 17%;
+	background-color: coral;
  }
 
 .glow {
