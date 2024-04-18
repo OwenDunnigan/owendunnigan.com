@@ -1,8 +1,4 @@
-.prairie_photos {
-	display: none;
-}
-
-.prairie {
+.bands {
 	font-size: xx-large;
 }
 
@@ -13,4 +9,21 @@
 #prairie:checked ~ .prairie_photos {
 	display: flex !important;
 	flex-wrap: wrap;
+}
+
+.prairie_photos {
+	display: none;
+}
+
+#haileys {
+	display: none;
+}
+
+#haileys:checked ~ .haileys_photos {
+	display: flex !important;
+	flex-wrap: wrap;
+}
+
+.haileys_photos {
+	display: none;
 }
