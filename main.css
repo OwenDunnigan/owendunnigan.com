@@ -5,6 +5,7 @@ body {
 
     -webkit-animation: AnimationName 30s ease infinite;
     animation: AnimationName 30s ease infinite;
+	overflow-x: hidden;
 }
 
 @-webkit-keyframes AnimationName {
@@ -45,6 +46,24 @@ body {
 #socials:checked ~ .container {
 	display: flex !important;
 }
+
+.dj {
+	display: none;
+	position: unset;
+}
+
+#dj:checked ~ .dj {
+	display: block;
+	position: absolute;
+	top: 0px;
+	z-index: -2;
+	right: 5%;
+}
+
+.dj img {
+	width: 37vw;
+}
+
 
 .links {
 	visibility: hidden !important;
@@ -88,6 +107,7 @@ a button {
 .rock {
 	position: fixed;
     width: -webkit-fill-available;
+	top: 73%;
 }
 
  .bottom {
@@ -100,6 +120,10 @@ a button {
  .news {
  	padding: 25px;
  }
+
+.news a img {
+	max-width: 37vw;
+}
 
  .container {
  	display: flex;
