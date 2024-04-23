@@ -91,7 +91,7 @@ input#food {
 	display: none;
 }
 
-.food img {
+img.food {
 	max-width: 47vw;
 }
 
