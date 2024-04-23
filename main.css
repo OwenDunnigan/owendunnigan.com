@@ -76,6 +76,8 @@ body {
     top: 30%;
     position: absolute;
     font-size: x-large;
+	border: 1px #000;
+	border-style: outset;
 }
 
 input#food {
