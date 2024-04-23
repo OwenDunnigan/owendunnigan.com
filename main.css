@@ -65,6 +65,38 @@ body {
 }
 
 
+#food:checked ~ .food {
+	display: block;
+	position: absolute;
+	z-index: -2;
+}
+
+.foodbttn , input#food{ 
+	padding: 2cqmax;
+    top: 30%;
+    position: absolute;
+    font-size: x-large;
+}
+
+input#food {
+	display: none;
+}
+
+.shrimp {
+	bottom: 5%;
+	right: 0%;
+}
+
+.food {
+	display: none;
+}
+
+.food img {
+	max-width: 47vw;
+}
+
+
+
 .links {
 	visibility: hidden !important;
 }
