@@ -1,4 +1,53 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
 img {
     align-items: center;
+    width: 33vw;
+}
+
+.seriesone {
+    display: none;
+}
+
+#one:checked ~ .seriesone {
+    display: inline;
+}
+
+.bttn {
+    position: fixed;
+    right: 0px;
+}
+
+.bttn.one {
+    top: 10vmin;
+}
+
+.bttn.two {
+    top:20vmin;
+}
+
+input {
+    display: none;
+}
+
+.seriestwo {
+    display: none;
+}
+
+#two:checked ~ .seriestwo {
+    display: block;
+}
+
+.lead {
+    width: 100vw;
+}
+.bench {
     width: 75vw;
+}
+
+iframe {
+    position: absolute;
 }
