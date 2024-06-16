@@ -89,6 +89,11 @@ input#food {
 	right: 0%;
 }
 
+.sausage {
+	right: 30%;
+    bottom: -69%;
+}
+
 .food {
 	display: none;
 }
