@@ -40,9 +40,15 @@ input {
 #two:checked ~ .seriestwo {
     display: block;
 }
-
+div.lead img {
+    width: 100vw;
+    min-height: 100vh;
+}
 .lead {
     width: 100vw;
+    position: sticky;
+    top: -110px;
+    z-index: -1;
 }
 .bench {
     width: 75vw;
@@ -50,6 +56,12 @@ input {
 
 iframe {
     position: absolute;
+}
+iframe.wall {
+    aspect-ratio: 16 /9;
+    width: 95%;
+    margin: auto 2.5%;
+    top: 125%;
 }
 
 
