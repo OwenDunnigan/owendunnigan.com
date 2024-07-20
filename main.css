@@ -244,8 +244,9 @@ a button {
  }
 
  #fortwhyte {
-	 position: relative;
-	 left: 30%;
+	 position: absolute;
+	 left: 63%;
+	 bottom: -173%;
  }
 
  #bands {
