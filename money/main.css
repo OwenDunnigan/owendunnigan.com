@@ -8,6 +8,10 @@ img {
     width: 33vw;
 }
 
+h1 {
+    font-size: 3em;
+}
+
 .seriesone {
     display: none;
 }
@@ -31,6 +35,7 @@ img {
 .bttn {
     position: fixed;
     right: 0px;
+    font-size: x-large;
 }
 
 .bttn.one {
