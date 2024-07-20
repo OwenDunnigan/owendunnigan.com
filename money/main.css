@@ -52,6 +52,19 @@ div.lead img {
 }
 .bench {
     width: 75vw;
+    position: relative;
+    left: 3%;
+    padding: 2.5%;
+    padding-top: 7%;
+}
+.lamp {
+    position: relative;
+    right: -13%;
+    padding: 5.5%;
+    width: 40vw;
+}
+.floor_img {
+    position: relative;
 }
 
 iframe {
