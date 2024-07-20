@@ -41,6 +41,7 @@ body {
 	position: absolute;
 	top: 50%;
 	z-index: 2;
+	right: 10%;
 }
 
 #socials:checked ~ .container {
@@ -108,11 +109,13 @@ img.food {
 	position: absolute;
 	right: 6.66%;
 	top: 66.6%;
+
 }
 
 .moneyimgtxt {
 	position: relative;
 	right: -50%;
+	max-width: 43vw;
 }
 
 .links {
@@ -157,7 +160,7 @@ a button {
 .rock {
 	position: fixed;
     width: 25%;
-	top: 73%;
+	top: 83%;
 }
 
  .bottom {
@@ -239,7 +242,7 @@ a button {
 
  #interdisciplinary {
  	position: absolute;
- 	top: 74vh;
+ 	top: 104vh;
  	left: 25vw;
  }
 
