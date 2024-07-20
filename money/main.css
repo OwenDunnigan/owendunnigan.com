@@ -12,6 +12,18 @@ img {
     display: none;
 }
 
+.seriesone p {
+    font-size: x-large;
+    width: 21vw;
+    position: absolute;
+    right: 48%;
+}
+
+.martyr {
+    position: absolute;
+    right: 3%;
+}
+
 #one:checked ~ .seriesone {
     display: inline;
 }
