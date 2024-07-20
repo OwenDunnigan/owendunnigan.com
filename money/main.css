@@ -63,6 +63,13 @@ iframe.wall {
     margin: auto 2.5%;
     top: 125%;
 }
+iframe.floor {
+    aspect-ratio: 3 / 4;
+    width: 33%;
+    right: 0px;
+    top: 200%;
+    z-index: 2;
+}
 
 
 
