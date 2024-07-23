@@ -112,7 +112,7 @@ iframe.floor {
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 950px) {
     iframe {
         position: relative;
     }
