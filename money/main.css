@@ -112,7 +112,7 @@ iframe.floor {
     }
   }
 
-  @media (max-width: 950px) {
+  @media (max-width: 1200px) {
     iframe {
         position: relative;
     }
@@ -163,4 +163,10 @@ div.lead img {
     padding: 2% 0%;
 }
 
+  }
+
+  @media (min-device-width: 800px) and (max-width: 1200px) {
+    iframe.floor {
+        top: 275%;
+    }
   }
