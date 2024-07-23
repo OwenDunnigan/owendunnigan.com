@@ -39,11 +39,11 @@ h1 {
 }
 
 .bttn.one {
-    top: 10vmin;
+    top: 10vmax;
 }
 
 .bttn.two {
-    top:20vmin;
+    top:20vmax;
 }
 
 input {
@@ -92,6 +92,7 @@ iframe.wall {
     width: 95%;
     margin: auto 2.5%;
     top: 125%;
+    left: 0%;
 }
 iframe.floor {
     aspect-ratio: 3 / 4;
@@ -109,4 +110,57 @@ iframe.floor {
       color: #dcb;
       outline: 5px dashed #000;
     }
+  }
+
+  @media (max-width: 800px) {
+    iframe {
+        position: relative;
+    }
+    iframe.floor {
+        position: absolute;
+    }
+
+img {
+    width: 66vw;
+}
+
+.tree {
+    width: 100%;
+}
+
+.martyr {
+    right: 1%;
+    top: 82%;
+}
+
+.seriesone p {
+    font-size: x-large;
+    width: 53vw;
+    position: absolute;
+    right: 37%;
+
+  }
+
+img.floor_img {
+    margin: 0% 17%;
+    padding: 24% 0%;
+    width: 47vw;
+    right: -20%;
+}
+
+div.lead img {
+    width: 130vw;
+    min-height: 111.5vh;
+}
+
+.lead {
+    overflow: hidden ;
+}
+
+.gallery img {
+    width: 44vw;
+    margin: 0% 2.5%;
+    padding: 2% 0%;
+}
+
   }
