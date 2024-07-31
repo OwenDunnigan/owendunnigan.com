@@ -64,7 +64,7 @@ div.lead img {
 .lead {
     width: 100vw;
     position: sticky;
-    top: -110px;
+    top: -85%;
     z-index: -1;
 }
 .bench {
@@ -159,7 +159,7 @@ div.lead img {
 
 .gallery img {
     width: 44vw;
-    margin: 0% 2.5%;
+    margin: 0% 2.1%;
     padding: 2% 0%;
 }
 
@@ -170,3 +170,15 @@ div.lead img {
         top: 275%;
     }
   }
+
+  @media (min-width: 1200px) {
+    .gallery img {
+        padding: 8vw;
+    }
+}
+
+@media (max-width: 2000px) {
+    .lead {
+        top: -110px;
+    }
+}
