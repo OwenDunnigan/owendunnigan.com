@@ -66,13 +66,31 @@ input#food
 
 #socialsnav
   position: fixed 
-  display: none 
+  opacity: 0 
+  visibility: hidden
   width: 100% 
   height: 100% 
   top: 0
   left: 0
   right: 0
   bottom: 0
-  background-color: rgba(0,0,0,0.5) /* Black background with opacity */
-  z-index: 2 
+  background-color: #396374
+  z-index: 2
+  transition: opacity 2s ease-in
+
+icon 
   cursor: pointer
+  position: absolute
+  right: 0px
+  transform-origin: center
+  transform: scale(1.1)
+  transform-box: fill-box
+
+nav 
+  position: absolute
+  position-area: center
+  font-size: 4rem
+  a 
+    text-decoration: none
+    color: inherit
+    display: block
