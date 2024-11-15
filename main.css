@@ -163,6 +163,9 @@ nav a {
   width: 10%;
   height: 10%;
 }
+#projects:hover {
+  right: 7.5%;
+}
 #projects.fullscreen {
   width: 100vw;
   height: 100vh;
@@ -192,8 +195,9 @@ nav a {
 
 .moneyimg {
   position: absolute;
-  bottom: 10%;
-  left: -22vw;
+  bottom: 0%;
+  left: -20vw;
+  z-index: -1;
 }
 .moneyimg img {
   width: 100%;
