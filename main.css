@@ -10,6 +10,11 @@
     fill: #fff1ce !important;
   }
 }
+@media screen and (max-width: 650px) {
+  #topnav {
+    width: 100%;
+  }
+}
 body {
   background-color: #fff1ce;
   color: #1c232c;
@@ -17,6 +22,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  background-attachment: fixed;
+}
+
+#ww_d9de56fc5befb {
+  padding: 40px 0 0 0 !important;
+}
+
+h1 {
+  justify-self: center;
 }
 
 .container {
@@ -172,6 +186,14 @@ nav a {
 #projects .project-links {
   visibility: hidden;
   opacity: 0;
+}
+
+.moneyimg {
+  position: absolute;
+  bottom: 10%;
+}
+.moneyimg img {
+  width: 100%;
 }
 
 .bottom {
