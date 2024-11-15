@@ -1,16 +1,6 @@
 <!DOCTYPE HTML>
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44006710-9"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-44006710-9');
-	</script>
-
 	<TITLE>Owen Dunnigan - The One and Only</TITLE>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="main.css">
@@ -18,169 +8,92 @@
 
 <body>
 	
-		<div>
-		<label for="music">yearly music's</label>
-		
-		<input type="checkbox" id="music">
-	</div>
-		<div class="music" style="
-    position: absolute;
-    animation: music 20s infinite alternate;pointer-events:none;">
-		<img src="https://shkspr.mobi/blog/wp-content/uploads/2015/02/loop2.gif" style="pointer-events:none;"></img>
-			<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS7LPuHwkWZdYKNOGOtxtRoEiYSJCjX21dQ0xbnpi1hiwXwjmzoqFzc-0aQ5r0Xzekc9zibqQoFUHeG/pubhtml?gid=0&single=true" style="pointer-events: all;">
-				<p>click me for music of 2021</p>
-			</a>
-	</div>
 	<div id="ww_d9de56fc5befb" v='1.3' loc='auto' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#FFFFFF00","cl_font":"#000000","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","el_whr":3}'>More forecasts: <a href="https://oneweather.org/fuerteventura/august/" id="ww_d9de56fc5befb_u" target="_blank">Fuerteventura temperature August</a></div><script async src="https://app2.weatherwidget.org/js/?id=ww_d9de56fc5befb"></script>
-	<img class="food" src="food/bacon.png">
+
 	<label for="food" class="foodbttn">turn on the food</label><input type="checkbox" id="food">
-	<p class="ip">in progress • in progress • in progress • in progress • in progress • in progress • in progress • in
-		progress • in progress • in progress • in progress • in progress • in progress • in progress • in progress • in
-		progress • in progress • in progress • in progress • in progress • in progress • in progress • in progress • in
-		progress • in progress • in progress • in progress • in progress • in progress • in progress • in progress • in
-		progress • in progress • in progress • in progress • in progress • in progress • in progress • in progress • inprogress • in progress • </p>
-	<h2>now in choose your own adventure flavor</h2>
-	<img class="food" src="food/bowl.png">
+	
+	
+	
+	<h1>the Owen Dunnigan everything-ness</h1>
+
+	<div id="topnav">
+		<a onclick="on()">socials</a>
+		<a href="contact.html">contact</a>
+		<a href="about.html">about</a>
+	</div>
+
+
+
+	<div id="socialsnav">
+		<icon onclick="off()"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+			<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+		  </svg></icon>
+		<nav>
+			<a href="https://instagram.com/owendunnigan">instagram</a>
+			<a href="https://youtube.com/owendunnigan">youtube</a>
+			<a href="https://github.com/owendunnigan">github</a>
+			<a href="https://last.fm/user/owendunnigan">last.fm</a>
+			<a href="https://behance.net/owendunnigan">behance</a>
+			<a href="https://soundcloud.com/owendunnigan">soundcloud</a>
+			<a href="https://instagram.com/owendunniganspam">instagram(spam)</a>
+			<a href="https://facebook.com/owendunnigan">facebook</a>
+		</nav>
+	</div>
+	<div id="projects" onclick="slide()" class="small-view">
+		<span>Things to Look At:</span>
+		<div class="project-links">
+			<a href="/bands/bands.html"><div id="bands">band photos</div></a>
+			<a href="nm/newmedia.html"><button id="newmedia">class project #<i>n+1</i></button></a>
+			<a href="rock/rock.html" class="rock"><button id="rock" style="width: 35px;">This Isn't Enough, I Need to Touch the Grass</button></a>
+			<a href="https://owendunnigan.github.io/interdisciplinary"><button id="interdisciplinary">oneof the first onlineclass projects</button></a>
+			<a href="https://web.archive.org/web/20220215224107/https://www.fortwhyte.org/with-the-land-artists-outside-at-fortwhyte-alive/"><button id="fortwhyte">Installation done at Fort Whyte</button></a>
+			<a href="https://owendunnigan.github.io/beautiful-little-project"><button>project for class (does not work on
+				safari)</button></a>
+		</div>
+	</div>
+
+		<img class="food , sausage" src="food/sausage.png">
+		<img class="food , camem" src="food/camem.png">
+		<img class="food , bacon" src="food/bacon.png">
+		<img class="food , bowl" src="food/bowl.png">
+		<img class="food , shrimp" src="food/shrimp.png">
+		<img class="food , pork" src="food/pork.png">
+
+	<div class="moneyimg"><a href="money/money.html"> <img class="moneyimgtxt" src="$$$.png"></a></div>
+	<!-- 
 	<label for="dj" class="enabledj">enable dj posters</label>
 	<input type="checkbox" id="dj">
-	<br>
-	<h1>the Owen Dunnigan everything-ness</h1>
-<img class="od" src="od.png">
-
-	<div>
-		
-	
-	<label for="socials" class="socials">socials</label>
-	<input type="checkbox" id="socials">
-	<div class="container">
-		<div class="snot">
-			<a href="https://instagram.com/owendunnigan">in</a>
-		</div>
-		<div class="snot glow">
-			<a href="https://youtube.com/owendunnigan">yo</a>
-		</div>
-		<div class="snot">
-			<a href="https://github.com/owendunnigan">gi</a>
-		</div>
-		<div class="snot">
-			<a href="https://facebook.com/owendunnigan">fa</a>
-		</div>
-		<div class="snot">
-			<a href="https://instagram.com/owendunniganspam">in(sp)</a>
-		</div>
-		<div class="snot">
-			<a href="https://twitter.com/owendunnigan">tw</a>
-		</div>
-		<div class="snot">
-			<a href="https://soundcloud.com/owendunnigan">so</a>
-		</div>
-		<div class="snot">
-			<a href="https://behance.net/owendunnigan">be</a>
-		</div>
-		<div class="snot">
-			<a href="https://reddit.com/owendunnigan">re</a>
-		</div>
-		<div class="snot">
-			<a href="https://last.fm/user/owendunnigan">la</a>
-		</div>
-		<p>(you can click these ^)</p>
-	</div>
-	</div>
-	<div>
-		<label for="news">the news</label>
-		<input type="checkbox" id="news">
-	<div class="links">
-		<p style=" color: cornsilk; "> hot things on the web <br> from me to you <3 </p>
-		<div class="news">
-			<a href="rcmp-whole-of-government-five-year-trends-for-canada.pdf">
-				<img src="rcmp.jpeg">
-				<p>"Whole of Government Five Year Trends for Canada" plan from RCMP</p>
-				
-		</div>	
-		<div class="news">
-				<a
-					href="https://www.theatlantic.com/magazine/archive/2022/05/social-media-democracy-trust-babel/629369/"><img
-						height="30%" width="30%" src="babel.avif">
-					<p>The Like and Retweet button made society mutually incomprehensible</p>
-				</a>
-			</div>
-			<div class="news">
-				<a href="https://www.vice.com/en/article/n7nd5x/anarchists-are-building-diy-heaters-to-keep-unhoused-people-warm"><img
-				height="30%" width="30%" src="https://video-images.vice.com/articles/61f4492de1de8b0094f60b31/lede/1643399791383-signal-2022-01-27-192920001.jpeg">
-			<p>Anarchists Disperse plans for DIY Heaters</p>	
-			</a>
-			</div>	
-			<div class="news">
-					<a
-						href="https://www.aphis.usda.gov/animal_health/one_health/downloads/qa-covid-white-tailed-deer-study.pdf"><img
-							height="30%" width="30%" src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-12/211228-white-tail-deer-al-0949-b8193e.jpg">
-					<p>Roughly 40% of randomly sampled white-tailed deer have/had COVID-19</p>
-						</a>
-				</div>
-				<div class="news">
-					<a
-						href="http://mofa-fapum.mb.ca/issues/manitoba-pcs-plagiarizing-legislation-from-an-american-corporate-lobby-group/"><img
-							height="30%" width="30%" src="mofa.png">
-						<p>PC Party is Plagiarizing</p>
-					</a>
-				</div>
-				<div class="news">
-					<a
-						href="https://www.vice.com/en/article/93w8xe/surreal-dance-video-accidentally-captures-myanmar-coup-as-it-happened"><img
-							src="dancing.avif">
-						<p>coup in myanmar captured in womans dance video (so surreal) </p>
-					</a>
-				</div>
-				<div class="news">
-					<a href="https://www.cell.com/current-biology/fulltext/S0960-9822(20)31891-1"><img
-							src="https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/46d99012-c11b-47d3-8636-45a18460e8c7/gr1.jpg">
-						<P>dino buttholes (I reccomend looking at the pdf at the end)</P>
-					</a>
-				</div>
-				<div class="news">
-					<a href="https://www.nature.com/articles/d41586-020-03421-y"><img
-							src="https://media.nature.com/lw800/magazine-assets/d41586-020-03421-y/d41586-020-03421-y_18649892.jpg">
-						<p>arecibo :(</p>
-					</a>
-				</div>
-
-				<div class="news">
-					<a href="https://shorturl.at/cPQW5"><img
-							src="https://www-washingtonpost-com.cdn.ampproject.org/i/s/www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MLEMWTRTGEI6XNM4VW3RKPIQYI.jpg&w=916">
-						<p> melania's xmas decorations <3 </p>
-					</a>
-				</div>
-
-	</div>
-	</div>
-	<img class="food , sausage" src="food/sausage.png">
-	<nav class="nav"><a href="contact.html">contact</a><a href="about.html">about</a></nav>
-	<br>
-	<img class="food" src="food/camem.png">
-	<br>
-	<div class="pups">
-		<a href="dogs/goodboys.html">some goodboys</a>
-	</div>
-	<br>
-	
-	<br>
-	<a href="https://owendunnigan.github.io/beautiful-little-project"><button>project for class (does not work on
-			safari)</button></a>
-	<div>
-		<p class="bottom"> go stare at the sun! </p>
-		
-	</div><div class="moneyimg"><a href="money/money.html"> <img class="moneyimgtxt" src="$$$.png"> click to view senior project! </a></div>
-	<!--<a href="typo.html"><button id="typo">another class project!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</button></a>-->
-	<a href="/bands/bands.html"><div id="bands">band photos</div></a>
-	<a href="nm/newmedia.html"><button id="newmedia">class project #<i>n+1</i></button></a>
-	<a href="rock/rock.html" class="rock"><button id="rock" style="width: 35px;">This Isn't Enough, I Need to Touch the Grass</button></a>
-	<a href="https://owendunnigan.github.io/interdisciplinary"><button id="interdisciplinary">oneof the first onlinec
-			lass projects</button></a>
-	<a href="https://web.archive.org/web/20220215224107/https://www.fortwhyte.org/with-the-land-artists-outside-at-fortwhyte-alive/"><button id="fortwhyte">Installation done at Fort Whyte</button></a>
-<div class="dj">
+	<div class="dj">
 	<img src="dj/mbtp1.png">
-</div>
-<img class="DJ , d1" src="dj/p2.jpg">
-<img class="food , shrimp" src="food/shrimp.png">
-<img class="food , pork" src="food/pork.png">
+	</div>
+
+	<img class="DJ , d1" src="dj/p2.jpg"> -->
+
+	<script>
+	function on() {
+	  const element = document.getElementById("socialsnav");
+	  element.style.visibility = "visible"; // Make it visible first
+	  element.style.opacity = "1";          // Then change opacity to 1 for fade-in
+	}
+  
+	function off() {
+	  const element = document.getElementById("socialsnav");
+	  element.style.opacity = "0";          // Change opacity to 0 for fade-out
+  
+	  // Delay setting visibility to hidden until after the fade-out completes
+	  setTimeout(() => {
+		element.style.visibility = "hidden";
+	  }, 2000); // Match this delay to the CSS transition duration
+	}
+
+	function slide() {
+    document.getElementById('projects').classList.toggle('fullscreen');
+}
+
+
+
+	</script>
+	<div>
+		<p class="bottom"> snow is right around the corner!! </p>
+	</div>
 </body>

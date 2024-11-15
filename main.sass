@@ -1,0 +1,184 @@
+
+@media (prefers-color-scheme: dark)
+  body  
+    background-color: #1c232c !important
+    color: #fff1ce !important
+  #ww_d9de56fc5befb 
+    color: #fff1ce !important
+  #ww_d9de56fc5befb .ww_additional .wi_add_ic 
+    fill: #fff1ce !important
+
+@media  screen and (max-width: 650px) 
+  #topnav
+    width: 100% !important
+
+body
+  background-color: #fff1ce
+  color: #1c232c
+  background-image: url('od.png')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: contain
+  background-attachment: fixed
+
+#ww_d9de56fc5befb 
+  padding: 40px 0 0 0 !important
+
+h1
+  justify-self: center
+
+.container
+  display: none !important
+
+.dj
+  display: none
+  position: unset
+
+#dj:checked ~ .dj
+  display: block
+  position: absolute
+  top: 0px
+  z-index: -2
+  right: 5%
+
+.dj img
+  width: 37vw
+
+.food
+  display: none
+  height: 20vh
+  
+
+
+#food:checked ~ .food
+  display: block
+  position: relative
+  z-index: -2
+
+.foodbttn
+  padding: 2cqmax
+  top: 30%
+  right: 5%
+  position: absolute
+  font-size: x-large
+  border: 1px #000
+  border-style: outset
+
+input#food
+  padding: 2cqmax
+  top: 30%
+  position: absolute
+  font-size: x-large
+  border: 1px #000
+  border-style: outset
+  display: none
+
+.links
+  visibility: hidden !important
+
+#news
+  &:checked ~ .links
+    visibility: visible !important
+
+  &:not(:checked) ~ .links
+    position: absolute
+
+#socialsnav
+  position: fixed 
+  opacity: 0 
+  visibility: hidden
+  width: 100% 
+  height: 100% 
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background-color: #396374
+  z-index: 2
+  transition: opacity 2s ease-in
+
+icon 
+  cursor: pointer
+  position: absolute
+  right: 0px
+  transform-origin: center
+  transform: scale(1.1)
+  transform-box: fill-box
+
+nav 
+  position: absolute
+  position-area: center
+  font-size: 4rem
+  a 
+    text-decoration: none
+    color: inherit
+    display: block
+
+#topnav 
+  background-color: rgb(159 188 190 / 35%)
+  position: fixed
+  top: 0px
+  right: 0px
+  width: 40%
+  height: 6%
+  display: inline-flex
+  justify-content: space-evenly
+  align-items: center
+  font-size: 1.5rem
+  a
+    text-decoration: none !important
+    color: inherit !important
+    cursor: pointer
+
+#projects
+  position: fixed
+  bottom: 20px
+  right: -4vw
+  padding: 10px
+  background-color: rgba(0, 0, 0, 0.8)
+  color: white
+  border-radius: 8px
+  transition: all 0.5s ease
+  cursor: pointer
+  overflow: hidden
+  width: 10%
+  height: 10%
+
+  &.fullscreen
+    width: 100vw
+    height: 100vh
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    border-radius: 0
+    padding: 20px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    cursor: default
+    overflow: auto
+    z-index: 1000
+
+    .project-links
+      visibility: visible
+      opacity: 1
+      transition: opacity 0.3s ease
+
+  .project-links
+    visibility: hidden
+    opacity: 0
+
+.moneyimg 
+  position: absolute
+  bottom: 10%
+  left: -22vw
+  img
+    width: 100%
+
+
+.bottom 
+  position: fixed
+  bottom: 0px
+  position-area: bottom
