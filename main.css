@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #1c232c !important;
+    background-color: #14161a !important;
     color: #fff1ce !important;
   }
   #ww_d9de56fc5befb {
@@ -17,7 +17,7 @@
 }
 body {
   background-color: #fff1ce;
-  color: #1c232c;
+  color: #14161a;
   background-image: url("od.png");
   background-position: center;
   background-repeat: no-repeat;
