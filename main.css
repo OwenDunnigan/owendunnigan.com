@@ -12,7 +12,7 @@
 }
 @media screen and (max-width: 650px) {
   #topnav {
-    width: 100%;
+    width: 100% !important;
   }
 }
 body {
@@ -152,7 +152,7 @@ nav a {
 #projects {
   position: fixed;
   bottom: 20px;
-  right: -40%;
+  right: -4vw;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
@@ -160,6 +160,8 @@ nav a {
   transition: all 0.5s ease;
   cursor: pointer;
   overflow: hidden;
+  width: 10%;
+  height: 10%;
 }
 #projects.fullscreen {
   width: 100vw;
@@ -191,6 +193,7 @@ nav a {
 .moneyimg {
   position: absolute;
   bottom: 10%;
+  left: -22vw;
 }
 .moneyimg img {
   width: 100%;
