@@ -16,6 +16,7 @@ body {
   background-image: url("od.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .container {
@@ -41,11 +42,12 @@ body {
 
 .food {
   display: none;
+  height: 20vh;
 }
 
 #food:checked ~ .food {
   display: block;
-  position: absolute;
+  position: relative;
   z-index: -2;
 }
 
@@ -131,6 +133,45 @@ nav a {
   text-decoration: none !important;
   color: inherit !important;
   cursor: pointer;
+}
+
+#projects {
+  position: fixed;
+  bottom: 20px;
+  right: -40%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+#projects.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  overflow: auto;
+  z-index: 1000;
+}
+#projects.fullscreen .project-links {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+#projects .project-links {
+  visibility: hidden;
+  opacity: 0;
 }
 
 .bottom {
