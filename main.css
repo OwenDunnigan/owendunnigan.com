@@ -108,7 +108,9 @@ input#food {
   bottom: 0;
   background-color: #396374;
   z-index: 2;
-  transition: opacity 2s ease-in;
+  transition: opacity 1s cubic-bezier(0.59, 0.36, 0.11, 1.01);
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 icon {
@@ -164,7 +166,7 @@ nav a {
   height: 10%;
 }
 #projects:hover {
-  right: 7.5%;
+  right: 5%;
 }
 #projects.fullscreen {
   width: 100vw;
@@ -191,6 +193,15 @@ nav a {
 #projects .project-links {
   visibility: hidden;
   opacity: 0;
+}
+
+#rock {
+  width: 35px;
+}
+
+#fortwhyte {
+  position: relative;
+  bottom: -10%;
 }
 
 .moneyimg {

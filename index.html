@@ -42,9 +42,9 @@
 	<div id="projects" onclick="slide()" class="small-view">
 		<span>Things to Look At:</span>
 		<div class="project-links">
-			<a href="/bands/bands.html"><div id="bands">band photos</div></a>
+			<a href="/bands/bands.html"><button id="bands">band photos</button></a>
 			<a href="nm/newmedia.html"><button id="newmedia">class project #<i>n+1</i></button></a>
-			<a href="rock/rock.html" class="rock"><button id="rock" style="width: 35px;">This Isn't Enough, I Need to Touch the Grass</button></a>
+			<a href="rock/rock.html" class="rock"><button id="rock">This Isn't Enough, I Need to Touch the Grass</button></a>
 			<a href="https://owendunnigan.github.io/interdisciplinary"><button id="interdisciplinary">oneof the first onlineclass projects</button></a>
 			<a href="https://web.archive.org/web/20220215224107/https://www.fortwhyte.org/with-the-land-artists-outside-at-fortwhyte-alive/"><button id="fortwhyte">Installation done at Fort Whyte</button></a>
 			<a href="https://owendunnigan.github.io/beautiful-little-project"><button>project for class (does not work on
@@ -82,7 +82,7 @@
 	  // Delay setting visibility to hidden until after the fade-out completes
 	  setTimeout(() => {
 		element.style.visibility = "hidden";
-	  }, 2000); // Match this delay to the CSS transition duration
+	  }, 1000); // Match this delay to the CSS transition duration
 	}
 
 	function slide() {
