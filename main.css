@@ -17,7 +17,7 @@
 }
 body {
   background-color: #fff1ce;
-  color: #14161a;
+  color: #393d45;
   background-image: url("od.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -131,6 +131,9 @@ nav a {
   text-decoration: none;
   color: inherit;
   display: block;
+}
+nav a:hover {
+  filter: opacity(0.8);
 }
 
 #topnav {
