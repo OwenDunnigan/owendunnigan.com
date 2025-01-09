@@ -211,6 +211,7 @@ nav a:hover {
   position: absolute;
   bottom: 0%;
   left: clamp(-10%, -20vmin, -6vw);
+  z-index: -1;
 }
 .moneyimg img {
   width: 100%;
