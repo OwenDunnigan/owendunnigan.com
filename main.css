@@ -196,6 +196,14 @@ nav a:hover {
 #projects .project-links {
   visibility: hidden;
   opacity: 0;
+  position: absolute;
+}
+#projects .things {
+  position: absolute;
+}
+#projects button {
+  background-color: blue;
+  border: none;
 }
 
 #rock {
@@ -238,8 +246,23 @@ nav a:hover {
   left: 25vw;
 }
 
+.gnocci {
+  right: -22%;
+}
+
 .bottom {
   position: fixed;
   bottom: 0px;
   position-area: bottom;
+}
+
+.artwordbox {
+  height: 100%;
+  width: 100%;
+  margin: 0 25%;
+}
+
+.artword {
+  height: inherit;
+  max-width: 25vw;
 }/*# sourceMappingURL=main.css.map */
