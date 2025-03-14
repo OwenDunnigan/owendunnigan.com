@@ -169,7 +169,7 @@ nav a:hover {
   height: 10%;
 }
 #projects:hover {
-  right: 3%;
+  right: 1%;
 }
 #projects.fullscreen {
   width: 100vw;
@@ -192,6 +192,7 @@ nav a:hover {
   visibility: visible;
   opacity: 1;
   transition: opacity 0.3s ease;
+  cursor: crosshair;
 }
 #projects .project-links {
   visibility: hidden;
@@ -204,6 +205,10 @@ nav a:hover {
 #projects button {
   background-color: blue;
   border: none;
+  min-height: 4vh;
+  padding: 2%;
+  margin: 10%;
+  cursor: crosshair;
 }
 
 #rock {
@@ -259,10 +264,10 @@ nav a:hover {
 .artwordbox {
   height: 100%;
   width: 100%;
-  margin: 0 25%;
 }
 
 .artword {
   height: inherit;
   max-width: 25vw;
+  margin: 0 25%;
 }/*# sourceMappingURL=main.css.map */
