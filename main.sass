@@ -95,7 +95,7 @@ input#food
   bottom: 0
   background-color: #396374
   z-index: 2
-  transition: opacity 1s cubic-bezier(0.59, 0.36, 0.11, 1.01)
+  transition: opacity 800ms cubic-bezier(0.5, 0.01, 0.03, 0.64)
   overflow-y: scroll
   overflow-x: hidden
 
@@ -183,13 +183,20 @@ nav
     position: absolute
 
   button
-    background-color: blue
+    background: radial-gradient(closest-side, #003559, #BEE5BF, #fff)
     border: none
     min-height: 4vh
     padding: 2%
     margin: 10%
     cursor: crosshair
+    animation-name: btnbckgrnd
+    animation-duration: 10s
         
+@keyframes btnbckgrnd
+  0%
+    background-image: linear-gradient(to bottom right, #003559, #BEE5BF)
+  100%
+    background-image: linear-gradient(to bottom right, #BEE5BF, #003559)
 
 #rock
   width: 35px
