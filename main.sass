@@ -1,3 +1,6 @@
+:root 
+  --border: 10px
+  
 
 @media (prefers-color-scheme: dark)
   body
@@ -182,10 +185,11 @@ nav
       flex-wrap: wrap
       align-content: space-around
       justify-content: space-evenly
+      align-items: center
+      max-width: 69%
       a
         height: fit-content
         max-width: min-content
-        padding: 2%
 
   .project-links
     visibility: hidden
@@ -195,42 +199,7 @@ nav
   .thigns
     position: absolute
 
-  button
-    min-height: 4vh
-    padding: 2%
-    margin: 10%
-    cursor: crosshair
-    display: block
-    font-size: 2rem
-    color: white
-    background: transparent
-    border: none
-    max-width: 33%
-
-  button::before, button::after
-    position: relative
-    width: 10vmin
-    height: 10vmin
-    content: '|'
-    mix-blend-mode: screen
-    animation: 44s -27s move infinite ease-in-out alternate
-
-  button::before
-    @include dots(40)
-    animation-duration: 44s
-    animation-delay: -27s
-
-  button::after
-    @include dots(40)
-    animation-duration: 43s
-    animation-delay: -32s
-
-@keyframes move
-  from
-    transform: rotate(0deg) scale(12) translateX(-20px)
-  to
-    transform: rotate(360deg) scale(18) translateX(20px)
-
+  
 #rock
   width: 15%
 
@@ -273,3 +242,50 @@ nav
   height: inherit
   max-width: 25vw
   margin: 0 25%
+
+.button
+  max-width: 33vw
+  width: min-content
+  height: min-content
+  margin: 1% 4%
+  position: relative
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: var(--border)
+  clip-path: content-box
+  overflow: scroll
+
+.button .inner
+  position: relative
+  z-index: 1
+  width: min-content
+  margin: 2%
+  padding: 25px
+  background: grey
+  border-radius: var(--border)
+
+.button::before, .button::after
+  content: ""
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  background: radial-gradient( rgba(0,53,89,1), rgba(190,229,191,1) 7.5%, rgba(0,212,255,0) 100%) center
+  background-size: 500%
+  z-index: -1
+  animation: rotate 13.5s cubic-bezier(.53,-0.02,.38,1) infinite both
+  width: 100%
+  border-radius: var(--border-radius)
+
+.button::after
+  filter: blur(15px)
+  transform: translate3d(0,0,0)
+
+@keyframes rotate
+  from
+    transform: rotate(0)
+
+  to
+    transform: rotate(360deg)
