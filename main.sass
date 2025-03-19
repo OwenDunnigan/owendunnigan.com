@@ -1,5 +1,5 @@
 :root 
-  --border: 10px
+  --border: 35px
   
 
 @media (prefers-color-scheme: dark)
@@ -197,10 +197,9 @@ nav
 
   .thigns
     position: absolute
+    top: 8%
 
-  
-#rock
-  width: 15%
+
 
 #fortwhyte
   position: relative
@@ -252,15 +251,19 @@ nav
   justify-content: center
   border-radius: var(--border)
   clip-path: content-box
+  a
+    text-decoration: double underline dimgrey
 
 .button .inner
   position: relative
   z-index: 1
-  margin: 2%
+  margin: 2.5px
   padding: 25px
-  background: grey
+  background: rgb(155 176 172)
   border-radius: var(--border)
   aspect-ratio: 5.63
+  color: #374421
+  
   
  
 .button::before, .button::after
@@ -270,7 +273,7 @@ nav
   left: 0
   bottom: 0
   right: 0
-  background: radial-gradient( rgba(0,53,89,1), rgba(190,229,191,1) 7.5%, rgba(0,212,255,0) 100%) center
+  background: radial-gradient( rgba(0,53,89,1), #bee2bf 7.5%, rgba(0,212,255,0) 100%) center
   background-size: 500%
   z-index: -1
   animation: rotate 13.5s cubic-bezier(.53,-0.02,.38,1) infinite both

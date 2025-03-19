@@ -1,5 +1,5 @@
 :root {
-  --border: 10px;
+  --border: 35px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -216,10 +216,7 @@ nav a:hover {
 }
 #projects .thigns {
   position: absolute;
-}
-
-#rock {
-  width: 15%;
+  top: 8%;
 }
 
 #fortwhyte {
@@ -281,8 +278,6 @@ nav a:hover {
 
 .button {
   max-width: 33vw;
-  width: -moz-min-content;
-  width: min-content;
   height: -moz-min-content;
   height: min-content;
   margin: 1% 4%;
@@ -294,15 +289,20 @@ nav a:hover {
   -webkit-clip-path: content-box;
           clip-path: content-box;
 }
+.button a {
+  -webkit-text-decoration: double underline dimgrey;
+          text-decoration: double underline dimgrey;
+}
 
 .button .inner {
   position: relative;
   z-index: 1;
-  margin: 2%;
+  margin: 2.5px;
   padding: 25px;
-  background: grey;
+  background: rgb(155, 176, 172);
   border-radius: var(--border);
-  aspect-ratio: 2.63;
+  aspect-ratio: 5.63;
+  color: #374421;
 }
 
 .button::before, .button::after {
@@ -312,7 +312,7 @@ nav a:hover {
   left: 0;
   bottom: 0;
   right: 0;
-  background: radial-gradient(rgb(0, 53, 89), rgb(190, 229, 191) 7.5%, rgba(0, 212, 255, 0) 100%) center;
+  background: radial-gradient(rgb(0, 53, 89), #bee2bf 7.5%, rgba(0, 212, 255, 0) 100%) center;
   background-size: 500%;
   z-index: -1;
   animation: rotate 13.5s cubic-bezier(0.53, -0.02, 0.38, 1) infinite both;
