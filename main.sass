@@ -1,14 +1,14 @@
 
 @media (prefers-color-scheme: dark)
-  body  
+  body
     background-color: #14161a !important
     color: #fff1ce !important
-  #ww_d9de56fc5befb 
+  #ww_d9de56fc5befb
     color: #fff1ce !important
-  #ww_d9de56fc5befb .ww_additional .wi_add_ic 
+  #ww_d9de56fc5befb .ww_additional .wi_add_ic
     fill: #fff1ce !important
 
-@media  screen and (max-width: 650px) 
+@media  screen and (max-width: 650px)
   #topnav
     width: 100% !important
 
@@ -21,7 +21,7 @@ body
   background-size: contain
   background-attachment: fixed
 
-#ww_d9de56fc5befb 
+#ww_d9de56fc5befb
   padding: 40px 0 0 0 !important
 
 h1
@@ -47,8 +47,6 @@ h1
 .food
   display: none
   height: 20vh
-  
-
 
 #food:checked ~ .food
   display: block
@@ -84,11 +82,11 @@ input#food
     position: absolute
 
 #socialsnav
-  position: fixed 
-  opacity: 0 
+  position: fixed
+  opacity: 0
   visibility: hidden
-  width: 100% 
-  height: 100% 
+  width: 100%
+  height: 100%
   top: 0
   left: 0
   right: 0
@@ -107,18 +105,18 @@ icon
   transform: scale(1.1)
   transform-box: fill-box
 
-nav 
+nav
   position: absolute
   position-area: center
   font-size: 4rem
-  a 
+  a
     text-decoration: none
     color: inherit
     display: block
-  a:hover 
+  a:hover
     filter: opacity(.8)
 
-#topnav 
+#topnav
   background-color: rgb(159 188 190 / 35%)
   position: fixed
   top: 0px
@@ -133,6 +131,12 @@ nav
     text-decoration: none !important
     color: inherit !important
     cursor: pointer
+
+@mixin dots($count)
+  $text-shadow: ()
+  @for $i from 0 through $count
+    $text-shadow: $text-shadow, (-.75+(random()) * 5) + em (-.75+(random()) * 5) + em 14px hsla(random() * 360, 100%, 50%,.9)
+    text-shadow: $text-shadow
 
 #projects
   position: fixed
@@ -183,29 +187,50 @@ nav
     position: absolute
 
   button
-    background: radial-gradient(circle closest-corner at right center, rgba(0,221,161,1) 0%, rgba(0,164,235,0.8701855742296919) 81%, rgba(0,212,255,0) 100%), radial-gradient(closest-corner at 50% 110%, rgba(5, 5, 5, .7), transparent)
-    border: none
     min-height: 4vh
     padding: 2%
     margin: 10%
     cursor: crosshair
-    animation-name: btnbckgrnd
-    animation-duration: 10s
-        
-@keyframes btnbckgrnd
-  0%
-    background-image: radial-gradient(circle closest-corner at right center, rgba(0,221,161,1) 0%, rgba(0,164,235,0.8701855742296919) 81%, rgba(0,212,255,0) 100%)
-  100%
-    background-image: radial-gradient(circle farthest-side at left center, rgba(0,221,161,1) 0%, rgba(0,164,235,0.8701855742296919) 81%, rgba(0,212,255,0) 100%)
+
+  button
+    display: block
+    font-size: 2rem
+    color: white
+    background: transparent
+    border: none
+
+  button::before, button::after
+    position: relative
+    width: 10vmin
+    height: 10vmin
+    content: '.'
+    mix-blend-mode: screen
+    animation: 44s -27s move infinite ease-in-out alternate
+
+  button::before
+    @include dots(40)
+    animation-duration: 44s
+    animation-delay: -27s
+
+  button::after
+    @include dots(40)
+    animation-duration: 43s
+    animation-delay: -32s
+
+@keyframes move
+  from
+    transform: rotate(0deg) scale(12) translateX(-20px)
+  to
+    transform: rotate(360deg) scale(18) translateX(20px)
 
 #rock
-  width: 35px
+  width: 15%
 
 #fortwhyte
   position: relative
-  bottom: -10%  
+  bottom: -10%
 
-.moneyimg 
+.moneyimg
   position: absolute
   bottom: 0%
   left: clamp(-10%, -20vmin, -6vw)
@@ -213,8 +238,7 @@ nav
   img
     width: 100%
 
-
-.shrimp 
+.shrimp
   right: -66vw
 .pork
   top: -50vh
@@ -228,12 +252,12 @@ nav
 .gnocci
   right: -22%
 
-.bottom 
+.bottom
   position: fixed
   bottom: 0px
   position-area: bottom
 
-.artwordbox 
+.artwordbox
   height: 100%
   width: 100%
 
