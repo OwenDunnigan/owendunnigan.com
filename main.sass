@@ -189,7 +189,6 @@ nav
       max-width: 69%
       a
         height: fit-content
-        max-width: min-content
 
   .project-links
     visibility: hidden
@@ -245,7 +244,6 @@ nav
 
 .button
   max-width: 33vw
-  width: min-content
   height: min-content
   margin: 1% 4%
   position: relative
@@ -254,17 +252,17 @@ nav
   justify-content: center
   border-radius: var(--border)
   clip-path: content-box
-  overflow: scroll
 
 .button .inner
   position: relative
   z-index: 1
-  width: min-content
   margin: 2%
   padding: 25px
   background: grey
   border-radius: var(--border)
-
+  aspect-ratio: 5.63
+  
+ 
 .button::before, .button::after
   content: ""
   position: absolute

@@ -208,8 +208,6 @@ nav a:hover {
 #projects.fullscreen .project-links a {
   height: -moz-fit-content;
   height: fit-content;
-  max-width: -moz-min-content;
-  max-width: min-content;
 }
 #projects .project-links {
   visibility: hidden;
@@ -295,18 +293,16 @@ nav a:hover {
   border-radius: var(--border);
   -webkit-clip-path: content-box;
           clip-path: content-box;
-  overflow: scroll;
 }
 
 .button .inner {
   position: relative;
   z-index: 1;
-  width: -moz-min-content;
-  width: min-content;
   margin: 2%;
   padding: 25px;
   background: grey;
   border-radius: var(--border);
+  aspect-ratio: 2.63;
 }
 
 .button::before, .button::after {
