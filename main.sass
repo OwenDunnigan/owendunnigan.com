@@ -135,7 +135,7 @@ nav
 @mixin dots($count)
   $text-shadow: ()
   @for $i from 0 through $count
-    $text-shadow: $text-shadow, (-.75+(random()) * 5) + em (-.75+(random()) * 5) + em 14px hsla(random() * 360, 100%, 50%,.9)
+    $text-shadow: $text-shadow, (-4+(random()) * 7) + em (-1.25+(random()) * 2) + em 13px hsla(random() * 360, 100%, 50%,.9)
     text-shadow: $text-shadow
 
 #projects
@@ -177,6 +177,15 @@ nav
       opacity: 1
       transition: opacity 0.3s ease
       cursor: crosshair
+      display: inline-flex
+      flex-direction: row
+      flex-wrap: wrap
+      align-content: space-around
+      justify-content: space-evenly
+      a
+        height: fit-content
+        max-width: min-content
+        padding: 2%
 
   .project-links
     visibility: hidden
@@ -191,19 +200,18 @@ nav
     padding: 2%
     margin: 10%
     cursor: crosshair
-
-  button
     display: block
     font-size: 2rem
     color: white
     background: transparent
     border: none
+    max-width: 33%
 
   button::before, button::after
     position: relative
     width: 10vmin
     height: 10vmin
-    content: '.'
+    content: '|'
     mix-blend-mode: screen
     animation: 44s -27s move infinite ease-in-out alternate
 
