@@ -137,7 +137,7 @@ nav
 #projects
   position: fixed
   bottom: 20px
-  right: -4vw
+  right: -7vmax
   padding: 10px
   background-color: rgba(0, 0, 0, 0.8)
   color: white
@@ -145,7 +145,7 @@ nav
   transition: all 0.5s ease
   cursor: pointer
   overflow: hidden
-  width: 10%
+  width: 15vmax
   height: 10%
 
   &:hover
@@ -179,11 +179,11 @@ nav
     opacity: 0
     position: absolute
 
-  .things
+  .thigns
     position: absolute
 
   button
-    background: radial-gradient(closest-side, #003559, #BEE5BF, #fff)
+    background: radial-gradient(circle closest-corner at right center, rgba(0,221,161,1) 0%, rgba(0,164,235,0.8701855742296919) 81%, rgba(0,212,255,0) 100%), radial-gradient(closest-corner at 50% 110%, rgba(5, 5, 5, .7), transparent)
     border: none
     min-height: 4vh
     padding: 2%
@@ -194,9 +194,9 @@ nav
         
 @keyframes btnbckgrnd
   0%
-    background-image: linear-gradient(to bottom right, #003559, #BEE5BF)
+    background-image: radial-gradient(circle closest-corner at right center, rgba(0,221,161,1) 0%, rgba(0,164,235,0.8701855742296919) 81%, rgba(0,212,255,0) 100%)
   100%
-    background-image: linear-gradient(to bottom right, #BEE5BF, #003559)
+    background-image: radial-gradient(circle farthest-side at left center, rgba(0,221,161,1) 0%, rgba(0,164,235,0.8701855742296919) 81%, rgba(0,212,255,0) 100%)
 
 #rock
   width: 35px

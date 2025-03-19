@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  overflow: hidden;
+}
+
+img {
+  max-height: 100vh;
+}
+
+.header {
+  position: fixed;
+  z-index: -1;
+  min-height: 100vh;
+}
+
+.gradient {
+  height: 200vh;
+  width: 100vw;
+  background: linear-gradient(to top, grey, rgba(0, 0, 0, 0));
+  position: relative;
+}
+
+.sheet {
+  z-index: 1;
+  width: 100vw;
+}
+.sheet .imgs {
+  position: absolute;
+  background: grey;
+}
+.sheet .imgs img {
+  max-width: 75vw;
+  position: relative;
+}
+.sheet .imgs :nth-child(odd) {
+  right: -33%;
+}
+
+.text {
+  position: absolute;
+  top: 10%;
+}
+.text h1 {
+  font-size: 4vmax;
+}/*# sourceMappingURL=trickle.css.map */
