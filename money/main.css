@@ -50,13 +50,14 @@ input {
     display: none;
 }
 
-.seriestwo {
+/*.seriestwo {
     display: none;
 }
 
 #two:checked ~ .seriestwo {
     display: block;
 }
+*/
 div.lead img {
     width: 100vw;
     min-height: 100vh;
