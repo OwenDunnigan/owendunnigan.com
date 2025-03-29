@@ -25,11 +25,17 @@ img
         img
             max-width: 75vw
             position: relative
-        :nth-child(odd)
-            right: -33% 
 
 .text
     position: absolute
     top: 10%
     h1
         font-size: 4vmax
+
+@media  screen and (max-width: 650px)
+    .sheet
+        .imgs
+            :nth-child(odd)
+                right: -33%
+        
+    

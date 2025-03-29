@@ -31,9 +31,6 @@ img {
   max-width: 75vw;
   position: relative;
 }
-.sheet .imgs :nth-child(odd) {
-  right: -33%;
-}
 
 .text {
   position: absolute;
@@ -41,4 +38,10 @@ img {
 }
 .text h1 {
   font-size: 4vmax;
+}
+
+@media screen and (max-width: 650px) {
+  .sheet .imgs :nth-child(odd) {
+    right: -33%;
+  }
 }/*# sourceMappingURL=trickle.css.map */

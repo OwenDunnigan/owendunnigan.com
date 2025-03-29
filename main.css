@@ -235,6 +235,7 @@ nav a:hover {
 }
 .moneyimg img {
   width: 100%;
+  max-width: 70vw;
 }
 
 .shrimp {
@@ -334,5 +335,23 @@ nav a:hover {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.PR {
+  width: 40vw;
+  position: absolute;
+  margin: 10%;
+  padding: 2%;
+  background: rgba(128, 128, 128, 0.9215686275);
+  z-index: 1000;
+  place-self: anchor-center;
+}
+
+@media (max-width: 623px) {
+  html {
+    font-size: 14px;
+  }
+  .PR {
+    width: 70vw;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -214,6 +214,7 @@ nav
   z-index: -1
   img
     width: 100%
+    max-width: 70vw
 
 .shrimp
   right: -66vw
@@ -292,3 +293,18 @@ nav
 
   to
     transform: rotate(360deg)
+
+.PR
+  width: 40vw
+  position: absolute
+  margin: 10%
+  padding: 2%
+  background: #808080eb
+  z-index: 1000
+  place-self: anchor-center
+
+@media (max-width: 623px) 
+    html 
+        font-size: 14px
+    .PR
+      width: 70vw
